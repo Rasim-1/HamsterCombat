@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+background-color: #f0f0f0;
+
+height: 100dvh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.game{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.49);
+}
+#coin{
+width: 200px;
+border-radius: 50%;
+transition: 0.1s;
+
+&:active {
+    scale: 1.05;
+}
+}
+#buyUpgrate{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: gold;
+    border: none;
+}
